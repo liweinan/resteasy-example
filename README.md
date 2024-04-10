@@ -1,3 +1,6 @@
+- https://github.com/resteasy/resteasy-spring-boot/issues/314
+
+---
 
 ```bash
 ➤ mvn spring-boot:run
@@ -13,11 +16,15 @@
 - https://tomcat.apache.org/download-11.cgi
 - https://dlcdn.apache.org/tomcat/tomcat-11/v11.0.0-M18/bin/apache-tomcat-11.0.0-M18.zip
 
-
 ---
 
 ## Tomcat
 
+```bash
 ➤ curl localhost:8080/resteasy-example-1.0-SNAPSHOT/rest/hello/world
 Hello World!⏎
+```
+
+---
+
 
